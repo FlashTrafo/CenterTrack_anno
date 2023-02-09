@@ -56,7 +56,7 @@ class opts(object):
     self.parser.add_argument('--save_all', action='store_true',
                              help='save model to disk every 5 epochs.')
     self.parser.add_argument('--vis_thresh', type=float, default=0.3,
-                             help='visualization threshold.')
+                             help='visualization threshold.') #######################
     self.parser.add_argument('--debugger_theme', default='white', 
                              choices=['white', 'black'])
     self.parser.add_argument('--eval_val', action='store_true')
